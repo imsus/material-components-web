@@ -50,3 +50,7 @@
     @include mdc-button-ripple((base-color: $mdc-theme-secondary, opacity: .16));
   }
 }
+
+.mdc-button.big-round-corner-button {
+  @include mdc-button-corner-radius(6px);
+}
